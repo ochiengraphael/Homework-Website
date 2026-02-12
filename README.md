@@ -22,7 +22,7 @@ The following was used to create the assignment checker website.
 - Clean and organised layout
 
 ### Live link:
-
+ochiengraphael.github.io/Homework-Website
 
 ### Contact details
 Emails include:
