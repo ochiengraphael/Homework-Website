@@ -11,7 +11,7 @@ background-color: white;
  width:500px;
  padding:20px;
  border-radius: 12px;
- box-shadow: solid black;
+ box-shadow: grey;
  
 }
 h1{
@@ -107,6 +107,7 @@ font-size: 16px;
     cursor: pointer;
     font-size: 22px;
 }
+
 
 
 
