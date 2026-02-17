@@ -1,0 +1,147 @@
+/* General global styling */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-image:url(recipe-photo-book-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: saddlebrown;
+}
+
+/* Navigation bar */
+header {
+    background-color: chocolate;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: navajowhite;
+}
+
+/* Main content container */
+main {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Hero section */
+.hero {
+    background-color: peachpuff;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about {
+    background-color: peachpuff;
+    padding: 60px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-family: serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.Guap h1{
+    background-color: rgba(255, 248, 220, 0.85);
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left:250px;
+}
+
+.hero h1 {
+    color: firebrick;
+}
+
+/* Buttons */
+button {
+    background-color: orange;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Recipe Cards */
+.recipe-card {
+    background-color: white;
+    border-left: 6px solid sandybrown;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Form styling */
+form {
+    background-color: wheat;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid burlywood;
+    font-size: 15px;
+}
+
+ #ingredients, #instructions {
+     resize: vertical;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 200px; 
+    width: 95%;
+}
+
+#recipeName, #difficulty {
+    min-width: 30%;
+    max-width: fit-content;
+}
+#time {
+    min-width: 20%;
+    max-width: fit-content;
+}
+/* Footer */ 
+footer {
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    main {
+        padding: 20px;
+    }
+}
