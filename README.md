@@ -29,17 +29,17 @@ The following was used to create the SweetBite website:
 ## Features
 - Responsive navigation bar
 
-Hero section with welcome message
+-Hero section with welcome message
 
-About section explaining the purpose of the website
+-About section explaining the purpose of the website
 
-Structured layout using semantic HTML
+-Structured layout using semantic HTML
 
-External CSS for styling
+-External CSS for styling
 
-External JavaScript for interactivity  
+-External JavaScript for interactivity  
 
-Persistent storage
+-Persistent storage
 
 ### Live link:
 ochiengraphael.github.io/Homework-Website
@@ -51,6 +51,7 @@ Emails include:
 * everettannan@gmail.com
 
 ## Copyright (C) 2026
+
 
 
 
