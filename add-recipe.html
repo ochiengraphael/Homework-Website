@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="add-recipe.html">Add Recipe</a>
+    </nav>
+</header>
+
+<main>           
+    <section class="Guap">
+    <h1>Add a New Recipe 🥧</h1>
+    </section>
+
+    <form id="recipeForm">
+        <label>Recipe Name:</label>
+        <input type="text" id="recipeName"><br>
+
+        <label>Difficulty:</label>
+        <select id="difficulty">
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select><br>
+
+        <label>Ingredients:</label>
+        <textarea id="ingredients"></textarea>
+
+        <label>Instructions:</label>
+        <textarea id="instructions"></textarea>
+
+        <label>Prep Time:</label>
+        <input type="text" id="time">
+
+        <button type="button" onclick="addRecipe()">Save Recipe</button>
+
+        <p id="errorMessage" style="color: red;"></p>
+    </form>
+</main>
+
+<footer>
+    SweetBite © 2026 — Bake your heart out 🧡
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
