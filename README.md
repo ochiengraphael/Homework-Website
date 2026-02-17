@@ -1,5 +1,6 @@
-# Assignment checker
-A website made for students to track their assignments.
+# SweetBite
+SweetBite is a cozy baking website where users can explore recipes, learn helpful baking tips, and add their own creations.
+It’s designed to make baking simple, fun, and inspiring for beginners and experienced bakers alike.
 
 ### Authors:
 * Raphael Ochieng'
@@ -7,7 +8,7 @@ A website made for students to track their assignments.
 * Annan Rapando
 
 ## Description
-The assignment checker is an interactive web application designed to help students organise and manage their assignments efficiently.
+The 
 
 ## Technologies used
 The following was used to create the assignment checker website.
@@ -29,6 +30,7 @@ Emails include:
 * ochiengraphael44@gmail.com
 * risperwanjikugichia@gmail.com
 * everettannan@gmail.com
+
 
 
 
